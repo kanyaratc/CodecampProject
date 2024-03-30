@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <a href="index.html">Home</a> |
+    <a href="education.html">Education</a> |
+    <a href="work.html">Work Experience</a> |
+    <a href="contact.html">Contact Me</a> |
+    <hr>
+    <h1>Contact Me</h1>
+
+<div style="padding:32px; border: 1px solid gray; border-radius: 16px;">
+  <p>Enter your info..</p>
+  <form>
+  <label for="fname">Your name</label><br>
+  <input type="text" id="fname" name="fname" style="width:100%"><br><br>
+  <label for="lname">Your E-mail</label><br>
+  <input type="mail" id="email" name="email" style="width:100%"><br><br>
+  <label for="gender">Gender:</label>
+  <br>
+<select id="gender" name="gender" style="width:100%">
+  <option value="">select</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select>
+<br> <br>
+<label>Message</label><br>
+<textarea name="message" rows="10" cols="30" style="width:100%">
+  Write message here
+</textarea>
+<br><br>
+  <input type="submit" value="Send">
+  <button>Clear</button>
+</form> 
+</div>
+</body>
+</html>
